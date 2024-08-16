@@ -23,7 +23,7 @@ const Login = () => {
             currState == 'Sign Up' ?
               <p className='login-toggle'>Already have an Account? <span onClick={() => setCurrState("Login")}>Login Here</span></p>
               :
-              <p className='login-toggle'>Create an Account! <span onClick={() => setCurrState("Sign Up ")}>Click Here</span></p>
+              <p className='login-toggle'>Create an Account! <span onClick={() => setCurrState("Sign Up")}>Click Here</span></p>
           }
         </div>
       </form>
